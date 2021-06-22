@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-/*Find a given number is prime or not
+Find a given number is prime or not
 int main()
 {
     int m,n;
@@ -24,4 +24,4 @@ int main()
     } 
     return 0;
 }
-*/
+
