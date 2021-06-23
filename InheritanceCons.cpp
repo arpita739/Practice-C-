@@ -17,13 +17,16 @@ class Child : Father //inheritance
     Child(int x):Father(x)  // Inheriting the constructor of Father class in Child constructor of child class
     {
         cout<<"child class constructor"<<endl;
-    }    
-}
-void display()
+    }   
+    void display()
 {
     cout<<"height is "<<height<<endl;
-}
+} 
+};
+
 int main()
 {
+    Child c(24);
+    c.display();
     return 0;
 }
